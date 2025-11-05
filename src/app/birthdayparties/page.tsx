@@ -8,7 +8,7 @@ export default function BirthdayPartiesPage() {
       {/* Hero Section */}
       <header className="bg-pink-500 text-white">
         <div className="max-w-7xl mx-auto px-6 py-14 sm:py-20">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-center ">
             Birthday Party Planning Services
           </h1>
           <p className="mt-4 max-w-3xl text-sm sm:text-base text-pink-50/90">

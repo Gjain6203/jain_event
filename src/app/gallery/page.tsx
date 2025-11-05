@@ -57,7 +57,7 @@ export default function GalleryPage() {
 
   return (
     <main className="max-w-6xl mx-auto p-6 mb-25 lg:mb-0 md:mb-0">
-      <h1 className="text-3xl font-bold mb-8 text-center mt-5">Gallery</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center mt-5 ">Gallery</h1>
 
       {!category && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center">

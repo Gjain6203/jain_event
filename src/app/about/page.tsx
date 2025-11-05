@@ -1,7 +1,7 @@
 export default function AboutPage() {
   return (
     <main className="max-w-3xl mx-auto p-6  mt-20">
-      <h1 className="text-3xl text-gray-800 font-bold mb-6 text-center">About Us – Jain Events</h1>
+      <h1 className="text-3xl text-gray-800 font-bold mb-6 text-center ">About Us – Jain Events</h1>
       <p className="mb-2 text-gray-500">
         At Jain Events, we specialize in wedding planning and birthday party
         celebrations that are elegant, creative, and stress-free.

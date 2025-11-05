@@ -8,7 +8,7 @@ export default function weddingplanningservices() {
       {/* HERO */}
       <header className="bg-amber-600 text-white">
         <div className="max-w-7xl mx-auto px-6 py-14 sm:py-20">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight text-center ">
             Wedding Planning Services
           </h1>
           <p className="mt-4 max-w-3xl text-sm sm:text-base text-amber-50/90">
