@@ -25,7 +25,7 @@ export default function ContactsPage() {
   };
 
   return (
-    <main className="max-w-3xl mx-auto p-6 mb-25 lg:mb-0 md:mb-0">
+    <main className="max-w-3xl mx-auto p-6 mb-50 lg:mb-0 md:mb-0">
       <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
       <p className="mb-2">
         Have questions or want to book an event? Reach out to us!

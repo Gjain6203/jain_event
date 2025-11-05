@@ -75,7 +75,7 @@ export default function GalleryPage() {
 
           <div
             onClick={() => setCategory("birthday")}
-            className="w-full sm:w-80 h-48 rounded-lg shadow-lg cursor-pointer hover:scale-105 transition-transform relative overflow-hidden"
+            className="w-full sm:w-80 h-48 mb-20 lg:mb-0  md:mb-0 rounded-lg shadow-lg cursor-pointer hover:scale-105 transition-transform relative overflow-hidden"
             style={{ backgroundImage: "url('/image/birthday2.jpg')" }}
           >
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
