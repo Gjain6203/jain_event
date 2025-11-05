@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function ServicesPage() {
   return (
-    <main className="max-w-3xl mx-auto p-6 mb-20 lg:mb-0 md:mb-0  min-h-screen ">
+    <main className="max-w-3xl mx-auto p-6  lg:mb-0 md:mb-0  min-h-screen ">
       <h1 className="text-3xl font-bold mb-4 text-center ">Our Services</h1>
       <ul className="space-y-5 ">
         <Link href="/weddingplanning">
