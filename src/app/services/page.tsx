@@ -10,8 +10,8 @@ export default function ServicesPage() {
             <h2 className="text-xl font-semibold">Wedding Planning</h2>
             <p>
               Elegant and stress-free wedding planning in <span className="font-bold"> Jaipur</span>  with complete
-              services including décor, DJ, cameraman, videography, dhol,
-              fireworks, Anchor and premium hospitality—everything you need to
+              services including décor, DJ, DJ on Wheels, cameraman, videography, dhol,
+              fireworks, Choreographer, Anchor and premium hospitality—everything you need to
               create your dream celebration.
             </p>
           </li>

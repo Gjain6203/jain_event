@@ -23,11 +23,21 @@ export default function Navbar() {
 
         {/* Desktop Links */}
         <ul className="hidden md:flex gap-6 text-base font-medium">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About Us</Link></li>
-          <li><Link href="/services">Services</Link></li>
-          <li><Link href="/gallery">Gallery</Link></li>
-          <li><Link href="/contacts">Contact</Link></li>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/about">About Us</Link>
+          </li>
+          <li>
+            <Link href="/services">Services</Link>
+          </li>
+          <li>
+            <Link href="/gallery">Gallery</Link>
+          </li>
+          <li>
+            <Link href="/contacts">Contact</Link>
+          </li>
         </ul>
 
         {/* Hamburger Button – visible only on mobile */}
@@ -43,11 +53,31 @@ export default function Navbar() {
       {/* Mobile Dropdown */}
       {open && (
         <ul className="md:hidden flex flex-col gap-4 bg-white dark:bg-black px-6 pb-6 text-base font-medium shadow-md">
-          <li><Link href="/" onClick={() => setOpen(false)}>Home</Link></li>
-          <li><Link href="/about" onClick={() => setOpen(false)}>About Us</Link></li>
-          <li><Link href="/services" onClick={() => setOpen(false)}>Services</Link></li>
-          <li><Link href="/gallery" onClick={() => setOpen(false)}>Gallery</Link></li>
-          <li><Link href="/contacts" onClick={() => setOpen(false)}>Contact</Link></li>
+          <li>
+            <Link href="/" onClick={() => setOpen(false)}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link href="/about" onClick={() => setOpen(false)}>
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link href="/services" onClick={() => setOpen(false)}>
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link href="/gallery" onClick={() => setOpen(false)}>
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link href="/contacts" onClick={() => setOpen(false)}>
+              Contact
+            </Link>
+          </li>
         </ul>
       )}
     </nav>

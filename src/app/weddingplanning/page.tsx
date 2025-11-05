@@ -13,9 +13,8 @@ export default function weddingplanningservices() {
           </h1>
           <p className="mt-4 max-w-3xl text-sm sm:text-base text-amber-50/90">
             Jain Events offers comprehensive wedding planning, from elegant
-            décor and  to seamless coordination of every detail.
-            We create stress-free, unforgettable celebrations tailored to your
-            vision.
+            décor and to seamless coordination of every detail. We create
+            stress-free, unforgettable celebrations tailored to your vision.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
@@ -64,14 +63,14 @@ export default function weddingplanningservices() {
             {/* Card: Decor & Theme */}
             <article className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
               <h3 className="text-lg font-semibold mb-2">
-                Decor & Theme Design
+                🌸 Decor & Theme Design
               </h3>
               <p className="text-sm text-gray-600 mb-3">
                 Personalized themes — Royal, Rustic, Boho, Modern or
                 Traditional. Full-stage, floral and lighting design to match
                 your story.
               </p>
-              <ul className="text-sm text-gray-600 space-y-1">
+              <ul className="list-disc list-inside text-gray-600 space-y-1">
                 <li>Stage, mandap & entrance design</li>
                 <li>Floral installations & centerpieces</li>
                 <li>Lighting design & special effects</li>
@@ -96,53 +95,80 @@ export default function weddingplanningservices() {
             {/* Card: Entertainment */}
             <article className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
               <h3 className="text-lg font-semibold mb-2">
-                Entertainment & Music
+                🎶 Entertainment & Music
               </h3>
               <p className="text-sm text-gray-600 mb-3">
-                DJs, live bands, folk performers, choreographed sangeet and
-                stage entertainment designed to keep your guests thrilled.
+                DJs,DJ on wheel, live bands, folk performers, choreographed
+                sangeet and stage entertainment designed to keep your guests
+                thrilled.
               </p>
-              <ul className="text-sm text-gray-600 space-y-1">
+              <ul className="list-disc list-inside text-gray-600 space-y-1">
                 <li>DJ & live bands</li>
                 <li>Dance choreography & performers</li>
-                <li>Special acts & celebrity performers</li>
+                <li>Special acts </li>
               </ul>
             </article>
 
             {/* Card: Styling */}
-            {/* <article className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
-              <h3 className="text-lg font-semibold mb-2">
-                Bridal & Groom Styling
-              </h3>
+            <article className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+              <h3 className="text-lg font-semibold mb-2">✂️ Utilities</h3>
               <p className="text-sm text-gray-600 mb-3">
-                Hair, makeup, mehndi artists and full wardrobe coordination so
-                the couple looks flawless throughout the celebrations.
+                Providing complete utility services such as salon, mehndi,
+                welcome arrangements, beauty stalls, and event essentials to
+                make every celebration seamless.
               </p>
-              <ul className="text-sm text-gray-600 space-y-1">
-                <li>Makeup & hair</li>
-                <li>Mehendi & pre-bridal services</li>
-                <li>Styling & wardrobe coordination</li>
+              <ul className="list-disc list-inside text-gray-600 space-y-1">
+                <li>Salon & Hair Styling </li>
+
+                <li> Ironing & Dressing Assistance</li>
+
+                <li>Professional Mehndi Artists </li>
+
+                <li>Welcome Mala & Safa Arrangement </li>
+
+                <li> Bangles and Accessory Stalls </li>
+
+                <li>Nail Art & Beauty Booths </li>
+
+                <li> Live Sketch and Tattoo Art </li>
               </ul>
-            </article> */}
+            </article>
 
             {/* Card: Photo & Video */}
             <article className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
               <h3 className="text-lg font-semibold mb-2">
-                Photography & Videography
+                📸 Photography & Videography
               </h3>
               <p className="text-sm text-gray-600 mb-3">
                 Candid coverage, cinematic films, drone footage and highlight
                 reels to relive every emotion.
               </p>
-              <ul className="text-sm text-gray-600 space-y-1">
+              <ul className="list-disc list-inside text-gray-600 space-y-1">
                 <li>Candid & traditional photography</li>
                 <li>Cinematic wedding films & highlights</li>
                 <li>Drone photography & 360° coverage</li>
               </ul>
             </article>
+
+             <section className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+            <h3 className="text-lg font-semibold mb-2">🏨 Hospitality</h3>
+            <p className="text-sm text-gray-600 mb-3">
+              We provide warm, professional hospitality services ensuring every
+              guest feels welcomed, comfortable, and cared for throughout your
+              event.
+            </p>
+            <ul className="list-disc list-inside text-gray-600 space-y-1">
+              <li>Hospitality Help Desk</li>
+              <li>Guest Management & Assistance</li>
+              <li>On-Site Support & Service Team</li>
+            </ul>
+          </section>
           </div>
 
-          {/* Expanded details */}
+     
+         
+
+               {/* Expanded details */}
           {/* <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
             <section className="bg-white p-6 rounded-2xl shadow-sm">
               <h3 className="text-xl font-semibold mb-3">
@@ -177,19 +203,6 @@ export default function weddingplanningservices() {
             </section>
           </div> */}
 
-          {/* <section className="mt-8 bg-white p-6 rounded-2xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">Post-Wedding Support</h3>
-            <p className="text-gray-600 mb-3">
-              Our services continue after the wedding — reception coordination,
-              honeymoon planning and thank-you gifts distribution so the whole
-              journey feels complete.
-            </p>
-            <ul className="list-disc list-inside text-gray-600 space-y-1">
-              <li>Reception event management</li>
-              <li>Honeymoon bookings & itinerary</li>
-              <li>Thank-you cards & gifting logistics</li>
-            </ul>
-          </section> */}
         </section>
       </main>
     </div>

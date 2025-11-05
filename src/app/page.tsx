@@ -24,19 +24,15 @@ export default function Home() {
     <main className="max-w-5xl mx-auto  px-4">
       {/* page */}
 
-     {/* background image */}
+      {/* background image */}
       <Image
         src="/image/home1.jpg"
         alt="Event planning background"
         fill
-       
         className="object-cover -z-10 "
       />
 
-
       <div className="absolute inset-0 bg-black/40 -z-10" />
-
-   
 
       {/* card */}
 
