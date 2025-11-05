@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BirthdayPartiesPage() {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-800">
+    <div className="min-h-screen bg-gray-50 text-gray-800 mb-20 lg:mb-0 md:mb-0">
       {/* Hero Section */}
       <header className="bg-pink-500 text-white">
         <div className="max-w-7xl mx-auto px-6 py-14 sm:py-20">

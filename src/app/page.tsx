@@ -21,7 +21,7 @@ const cards = [
 
 export default function Home() {
   return (
-    <main className="max-w-5xl mx-auto  px-4">
+    <main className="max-w-5xl mx-auto  px-4 mb-60 lg:mb-0 md:mb-0">
       {/* page */}
 
       {/* background image */}

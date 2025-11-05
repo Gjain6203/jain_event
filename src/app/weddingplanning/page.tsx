@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function weddingplanningservices() {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-800">
+    <div className="min-h-screen bg-gray-50 text-gray-800 mb-50 lg:mb-0 md:mb-0">
       {/* HERO */}
       <header className="bg-amber-600 text-white">
         <div className="max-w-7xl mx-auto px-6 py-14 sm:py-20">
