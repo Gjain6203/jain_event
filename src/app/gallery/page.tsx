@@ -33,6 +33,7 @@ const weddingImages: Media[] = [
   {  type: "image",src: "/image/wedding22.jpg", alt: "Wedding Photo " },
    {  type: "image",src: "/image/wedding23.JPG", alt: "Wedding Photo " },
     {  type: "image",src: "/image/wedding24.jpg", alt: "Wedding Photo " },
+    {  type: "video",src: "/image/wedding reels video1.mp4", alt: "Wedding video " },
 ];
 
 const birthdayImages: Media[] = [
